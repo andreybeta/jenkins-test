@@ -6,9 +6,4 @@ class WelcomeControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get list" do
-    get :list
-    assert_response :success
-  end
-
 end
