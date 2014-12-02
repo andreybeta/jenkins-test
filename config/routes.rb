@@ -1,4 +1,7 @@
 JenkinsTest::Application.routes.draw do
+  resources :tasks
+
+
   get "welcome/index"
 
   # The priority is based upon order of creation:
