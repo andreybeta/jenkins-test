@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: pxd_ci_test
   pool: 5
-  username: pxd
+  username: postgres
   password: postgres
 
 production:
