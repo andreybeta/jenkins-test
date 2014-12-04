@@ -1,1 +1,8 @@
-
+deploy:
+  provider: heroku
+  api_key:
+    secure: IRNwHR12hgyxI0irufDBZCedZ0hae4TeO3QgTwNKrrsk2Uj8giHjFxJn9Lo3t2GTGJrimIss5xEDGax45Nv3Q1zRM+RUUmyHKIkjhZpVCCcfLSfQyuTAYyraTQDb7LmiIzQoCdgMMNNZhU2YKSGQKEXb7Jpg4WcRtekXm7/ZAac=
+  app: pxd-travis-test
+  on:
+    repo: andreybeta/jenkins-test
+    branch: development
