@@ -10,5 +10,8 @@ deploy:
 addons:
   postgresql: "9.3"
 
+script:
+  - RAILS_ENV=test bundle exec rake db:migrate --trace
+
 before_script:
   - psql -c 'create database pxd_ci_test;' -U postgres
